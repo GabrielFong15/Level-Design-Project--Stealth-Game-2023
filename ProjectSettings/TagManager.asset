@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Interact
+  - Light
+  - StartPoint
+  - Enemy
+  - CheckPoint
+  - PlayerBody
+  - Ally
   layers:
   - Default
   - TransparentFX
@@ -12,7 +19,7 @@ TagManager:
   - Water
   - UI
   - PostProc
-  - 
+  - Camera
   - 
   - 
   - 
