@@ -113,7 +113,7 @@ public class FPSMovement : MonoBehaviour
             if (crouching)
             {
                 m_camera.transform.position = Vector3.Lerp(m_camera.transform.position, m_cameraCrouchPoint.transform.position, Time.deltaTime * lerpRate);
-                m_charController.height = 1f; // If you want to change the crouching height, adjust this. Be careful doing so - Kept this non-exposed as it can lead to issues. 0.75 works
+                m_charController.height = 0.75f; // If you want to change the crouching height, adjust this. Be careful doing so - Kept this non-exposed as it can lead to issues. 0.75 works
                 crouchSwitched = false;
             }
             else
