@@ -82,10 +82,10 @@ MonoBehaviour:
     value: 0
   speedUp:
     overrideState: 1
-    value: 0.6
+    value: 0.4
   speedDown:
     overrideState: 1
-    value: 0.6
+    value: 0.4
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
