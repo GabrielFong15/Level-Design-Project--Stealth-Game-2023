@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2699556339039717909}
   - component: {fileID: 2699556339039717914}
-  - component: {fileID: 2699556339039717908}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -50,16 +49,3 @@ MonoBehaviour:
   player: {fileID: 0}
   activeMaterial: {fileID: 2100000, guid: f7ce0563e7f02014aa0f6b7208f19d3c, type: 2}
   inactiveMaterial: {fileID: 2100000, guid: 3006b5d8b803f5f4eaee38dd566c618d, type: 2}
---- !u!114 &2699556339039717908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2699556339039717915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 653fce4aa31c76546b3299595281a207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyList: []
