@@ -18,7 +18,7 @@ public class FPSMovement : MonoBehaviour
     public Transform m_groundCheckPoint;
     public float m_groundDistance = 0.4f;
     public LayerMask m_groundMask;
-    private bool m_isGrounded; 
+    private bool m_isGrounded;
 
     public KeyCode m_forward;
     public KeyCode m_back;
@@ -131,7 +131,7 @@ public class FPSMovement : MonoBehaviour
         if (Input.GetKeyDown(m_sprint)) // if key is down, sprint
         {
             m_finalSpeed = m_movementSpeed * m_runSpeed;
-        } 
+        }
         else if (Input.GetKeyUp(m_sprint)) // if key is uo, don't sprint
         {
             m_finalSpeed = m_movementSpeed;
