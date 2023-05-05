@@ -11,6 +11,7 @@ TagManager:
   - CheckPoint
   - PlayerBody
   - Ally
+  - Collectable
   layers:
   - Default
   - TransparentFX
